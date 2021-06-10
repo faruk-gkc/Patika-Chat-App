@@ -1,0 +1,17 @@
+form,.render-chat {
+  min-height: 400px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  overflow-y:auto ;
+}
+
+.render-chat p:nth-child(odd) {
+  background-color: rgba(56, 132, 155, 0.2);
+  padding: 2px;
+}
+
+.render-chat span {
+ color: rgb(0, 162, 255);
+ font-weight: 600;
+}
